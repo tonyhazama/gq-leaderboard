@@ -13,9 +13,13 @@
   pointer-events: none;
 }
 
+.portrait {
+  transform: rotate(0deg);
+}
+
 @media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+  .portrait {
+    animation: portrait-spin infinite 5s linear;
   }
 }
 
@@ -32,6 +36,24 @@
 
 .App-link {
   color: #61dafb;
+}
+
+@keyframes portrait-spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(-5deg);
+  }
+  50% {
+    transform: rotate(0deg);
+  }
+  75% {
+    transform: rotate(5deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
 }
 
 @keyframes App-logo-spin {

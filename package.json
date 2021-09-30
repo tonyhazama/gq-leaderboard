@@ -1,6 +1,5 @@
 {
   "name": "gq-leaderboard",
-  "homepage": "https://tonyhazama.github.io/gq-leaderboard",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
